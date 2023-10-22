@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+}
