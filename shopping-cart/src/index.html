@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="header">
+          <div class="header-left"><h5>Vaccine Shop</h5></div>
+          <div class="header-right">
+            <div><input id="search" placeholder="Search" /></div>
+            <div><select id="category" placeholder="Filter By Category" />
+            <option value="">Filter By Category</option>
+            <option value="Viral Vector">Viral Vector</option>
+            <option value="mRNA Vaccine">mRNA Vaccine</option>
+          </select></div>
+            <div><select id="stock" placeholder="Filter By Stock" />
+              <option value="">Filter By Stock</option>
+              <option value="In stock">In Stock</option>
+              <option value="Out stock">Out Stock</option>
+            </select></div>
+          </div>
+        </div>
+        <div id="table">
+          <table>
+            <thead>
+            <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Availability</th>
+            <th>Quanity</th>
+            <th></th>
+            </tr>
+            <thead>
+            <tbody id="tableBody">
+            </tbody>
+          <table>
+        </div>
+      </div>
+      <div class="right" id="bag">
+        <h5>Bag</h5>
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </thead>
+          <tbody id="bagBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
